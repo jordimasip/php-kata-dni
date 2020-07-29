@@ -1,0 +1,21 @@
+{
+    "name": "jordimasip/kata-dni",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "KataDni\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\KataDni\\": "tests"
+        }
+    },
+    "scripts" : {
+        "phpunit" : "phpunit"
+    }
+}
